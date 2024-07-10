@@ -1,3 +1,0 @@
-Lasma.txt
-
-This is a test file
