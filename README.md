@@ -1,4 +1,4 @@
-# Inside Airbnb
+# :hotel: Inside Airbnb
 
 
 ## Project Overview
@@ -14,7 +14,7 @@ As an investor, I would like to know which neighborhood has the most potential f
 As a government agency, we would like to research which regions offer regulatory policy in the short term property market. 
 As a tourism agency, we would like to create marketing strategies to promote destinations based on popular Airbnb locations and trends.   
 
-## Business Questions
+## :question:`Business Questions
 The business questions will help us uncover insights that address the problem statement and provide analysis based on Inside Airbnb’s available datasets.
 
 1.How many listings in each city? - value count for the city dataframe
@@ -27,7 +27,7 @@ The business questions will help us uncover insights that address the problem st
 8.Are there differences in amount of listings/price between regulated (e.g. Berlin, Barcelona) and unregulated (Prague, Vienna) cities?
 
   
-## Goals
+## :goal_net: Goals
 1.Answer all business questions using datasets of regions from Inside Airbnb
 2.Provide statistical analysis to visualize key business questions
 
@@ -46,7 +46,7 @@ Top 6 EU cities by population (Paris, London, Madrid, Barcelona, Istanbul and Ro
 4.Presentation
   Prepare presentation
 
-## Tools and Technologies Used
+## :toolbox: Tools and Technologies Used
 
 - Python: The main programming language used for data processing, analysis, and visualization.
 - Jupyter Notebook: Used for data cleaning, merging datasets, estimating the adoption curve, and addressing the project questions.
