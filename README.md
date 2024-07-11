@@ -1,4 +1,5 @@
 # :hotel: Inside Airbnb
+
 We are a consultancy firm dedicated to maximizing your rental income through expert Airbnb management, market analysis, and strategic pricing.
 
 
@@ -30,8 +31,9 @@ The business questions will help us uncover insights that address the problem st
 
   
 ## :goal_net: Goals
-1.Answer all business questions using datasets of 6 different cities.
-2.Provide statistical analysis to visualize key business questions.
+Answer all business questions using datasets of 6 different cities.
+
+Provide statistical analysis to visualize key business questions.
 
 ## Scope
 Top 6 EU cities by population (Paris, London, Madrid, Barcelona, Istanbul and Rome). 
