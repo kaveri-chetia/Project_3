@@ -19,8 +19,8 @@ As a tourism agency, we would like to create marketing strategies to promote des
 ## :question:`Business Questions
 The business questions will help us uncover insights that address the problem statement and provide analysis based on Inside Airbnb’s available datasets.
 
-1.How many listings in each city? - value count for the city dataframe
-2.How are these listings distributed within the city? - value count/neighborhood
+1.How many listings in each city?
+2.How are these listings distributed within the city?
 3.How the distribution of room types differs significantly between neighbourhoods.
 4.Comparative study of Top 10 popular neighbourhoodsof each city.
 5.What is the price distribution in each city?
@@ -31,9 +31,8 @@ The business questions will help us uncover insights that address the problem st
 
   
 ## :goal_net: Goals
-Answer all business questions using datasets of 6 different cities.
-
-Provide statistical analysis to visualize key business questions.
+1. Answer all business questions using datasets of 6 different cities.
+2. Provide statistical analysis to visualize key business questions.
 
 ## Scope
 Top 6 EU cities by population (Paris, London, Madrid, Barcelona, Istanbul and Rome). 
