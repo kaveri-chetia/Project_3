@@ -1,8 +1,9 @@
 # :hotel: Inside Airbnb
+We are a consultancy firm dedicated to maximizing your rental income through expert Airbnb management, market analysis, and strategic pricing.
 
 
-## Project Overview
-Inside Airbnb provides data about Airbnb's impact in residential communities.  The inside Airbnb website offers quarterly regional data globally broken down by major cities about Airbnb rentals such as the average income, price, listing information, reviews.  
+# Project Overview
+Inside Airbnb provides data about Airbnb's impact in residential communities.  We have compiled comprehensive quarterly data on Airbnb rentals, segmented by major cities worldwide. This includes detailed information on average income, pricing, listings, and reviews.
 We aim to use this data to answer key business questions about Airbnb market economy.
 
 ## Problem Statement
