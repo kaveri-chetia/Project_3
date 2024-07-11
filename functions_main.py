@@ -1,9 +1,8 @@
 import pandas as pd
-#import all functions from functions_main.py file
-from functions_main import *
+import plotly.express as px
+import seaborn as sns
+import seaborn.objects as so
 
-
-import pandas as pd
 
 def merge_csv_files(file_list):
     #create an empty list to store the dataframes
@@ -59,3 +58,25 @@ def merge_data_frames(df_list):
     #concatenate the dataframes
     final_dataframe = pd.concat(dataframes_merged, ignore_index=True)
     return final_dataframe
+
+def create_pie(cities, final_dataframe):
+    
+    for city in cities:
+        filtered_cities_df = final_dataframe[final_dataframe['city'].isin([city])]
+        neighbourhood_counts=filtered_cities_df["neighbourhood"].value_counts()
+        top_10_neighbourhoods = neighbourhood_counts.head(10)
+        top_10_df = top_10_neighbourhoods.reset_index()
+        top_10_df.columns = ['neighbourhood', 'count']
+        fig = px.pie(top_10_df, values='count', names='neighbourhood', title= city + "---Top 10 Neighbourhoods by Counts")
+        display(fig)
+
+
+def create_box(cities, final_dataframe):
+    for city in cities:
+        filtered_cities_df = final_dataframe[final_dataframe['city'].isin([city])]
+        neighbourhood_counts=filtered_cities_df["neighbourhood"].value_counts()
+        top_10_neighbourhoods = neighbourhood_counts.head(10)
+        top_10_df = top_10_neighbourhoods.reset_index()
+        top_10_df.columns = ['neighbourhood', 'count']
+        fig = px.box(filtered_cities_df, x='room_type', y='neighbourhood', title= city + '----Box Plot of popular roomtypes based on neighbourhoods')
+        display(fig)        
