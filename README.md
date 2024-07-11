@@ -3,10 +3,10 @@ We are a consultancy firm dedicated to maximizing your rental income through exp
 
 
 # Project Overview
-Inside Airbnb provides data about Airbnb's impact in residential communities.  We have compiled comprehensive quarterly data on Airbnb rentals, segmented by major cities worldwide. This includes detailed information on average income, pricing, listings, and reviews.
+The project highlights the impact of Airbnb on residential communities.  We have compiled comprehensive quarterly data on Airbnb rentals, segmented by major cities worldwide. This includes detailed information on average income, pricing, listings, and reviews.
 We aim to use this data to answer key business questions about Airbnb market economy.
 
-## Problem Statement
+# Problem Statement
 
 Today's short-term rental market in the biggest cities in Europe  is very saturated. As a new investor/potential property owner, it is important to understand the current market situation and demand/offer to make informed decisions. To address this problem there is a need to explore the current price and location trends, as well as look into guest experience enhancement opportunities and to evaluate the impact regulations have on the short term rental market. 
 
@@ -20,17 +20,18 @@ The business questions will help us uncover insights that address the problem st
 
 1.How many listings in each city? - value count for the city dataframe
 2.How are these listings distributed within the city? - value count/neighborhood
-3.Are there neighborhoods with particularly high rental density?
-4.Are the neighborhoods with the most listings also with highest occupancy  (review or monthly review count)?
-5.What room type is the most popular (based on the amount of reviews)?
-6.What is the min/max/average price?
-7.Is there a difference in price between summer/winter? - e.g. price differences between Q3 and Q4
-8.Are there differences in amount of listings/price between regulated (e.g. Berlin, Barcelona) and unregulated (Prague, Vienna) cities?
+3.How the distribution of room types differs significantly between neighbourhoods.
+4.Comparative study of Top 10 popular neighbourhoodsof each city.
+5.What is the price distribution in each city?
+6.What is the average/max/min price in each city?
+7.How do the cities compare?
+8.What are the price trends over the last four quarters?
+9.Are there differences in amount of listings/price between regulated (e.g. Berlin, Barcelona) and unregulated (Prague, Vienna) cities?
 
   
 ## :goal_net: Goals
-1.Answer all business questions using datasets of regions from Inside Airbnb
-2.Provide statistical analysis to visualize key business questions
+1.Answer all business questions using datasets of 6 different cities.
+2.Provide statistical analysis to visualize key business questions.
 
 ## Scope
 Top 6 EU cities by population (Paris, London, Madrid, Barcelona, Istanbul and Rome). 
