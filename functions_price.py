@@ -1,11 +1,15 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-import requests
-import os
-from dotenv import load_dotenv
 import plotly.express as px
 import plotly.graph_objects as go
+
+import os
+import requests
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 #--------------------------------------------MERGE CSV FILES------------------------------------------------
 def merge_csv_files(file_list):
@@ -194,9 +198,10 @@ def calculate_stats(df):
 #--------------------------------------------GET AVERAGE PRICES------------------------------------------------
 
 def calculate_average_prices(df, quarters):
-
+    #empty list to store the values
     avg_prices = []
 
+    # Calculate average price for each city in each quarter
     for quarter in quarters:
         quarter_df = df[df['quarter'] == quarter]
         avg_price = quarter_df.groupby('city')['price_in_eur'].mean().reset_index()
@@ -211,26 +216,3 @@ def calculate_average_prices(df, quarters):
     avg_price_comparison = pd.DataFrame(avg_price_comparison)
 
     return avg_price_comparison
-
-#--------------------------------------------VISUALIZE AVERAGE PRICES------------------------------------------------
-
-def average_trends_visuals(avg_price_comparison):
-# Melt the DataFrame to long format
-    df_melted = avg_price_comparison.melt(id_vars='city', var_name='quarter', value_name='price')
-
-# Convert quarter names to a proper order
-    df_melted['quarter'] = df_melted['quarter'].str.replace('price_in_eur_', '')
-    df_melted['quarter'] = pd.Categorical(df_melted['quarter'], 
-                                      categories=['q2_2023', 'q3_2023', 'q4_2023', 'q1_2024'], 
-                                      ordered=True)
-
-# Create a line plot
-    fig = px.line(df_melted, x='quarter', y='price', color='city', markers=True, title='Price Trends Over Quarters')
-    fig.update_layout(
-    xaxis_title='Quarter',
-    yaxis_title='Price in EUR',
-    title_font_size=16,
-    xaxis_title_font_size=14,
-    yaxis_title_font_size=14
-)
-    fig.show()
