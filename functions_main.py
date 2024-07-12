@@ -1,9 +1,5 @@
 import pandas as pd
-#import all functions from functions_main.py file
-from functions_main import *
 
-
-import pandas as pd
 
 def merge_csv_files(file_list):
     #create an empty list to store the dataframes
