@@ -69,3 +69,8 @@ The project structure is as follows:
 ## Conclusion
 
 This data project provides insights 
+
+1.Average prices are higher in cities with higher cost of living index.
+2.To conclude the price patterns regarding summer/winter periods, more data is needed. 
+3.The listings are concentrated in touristic locations and by the airport, which shows 
+  that there is demand for these locations in particular.  
