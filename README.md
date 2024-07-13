@@ -29,6 +29,23 @@ The business questions will help us uncover insights that address the problem st
 8.What are the price trends over the last four quarters?
 9.Are there differences in amount of listings/price between regulated (e.g. Berlin, Barcelona) and unregulated (Prague, Vienna) cities?
 
+### **EDA - 1️⃣ Hypothesis**
+
+**Variables used:**
+
+- cities;
+- neighbourhood;
+- room_types.
+
+
+![Data Visualization](EDA/EDA_visualizations/Countplot1.png)
+*Comparison of top 10 neighborhoods of 6 cities on the basis of listings*
+
+![Data Visualization](EDA/EDA_visualizations/Stackedplot1.png)
+*Comparison of top room-types of 6 cities*
+
+
+
   
 ## :goal_net: Goals
 1. Answer all business questions using datasets of 6 different cities.
@@ -76,4 +93,8 @@ This data project provides insights on-
 
 3.The listings are concentrated in touristic locations and by the airport, which shows 
   that there is demand for these locations in particular. 
+
+### Link
+(https://insideairbnb.com/get-the-data/and)
+  
 
