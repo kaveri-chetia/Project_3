@@ -30,19 +30,33 @@ The business questions will help us uncover insights that address the problem st
 9.Are there differences in amount of listings/price between regulated (e.g. Berlin, Barcelona) and unregulated (Prague, Vienna) cities?
 
 ### **EDA - 1️⃣ Hypothesis**
-
-**Variables used:**
-
-- cities;
-- neighbourhood;
-- room_types.
+Cities with a higher cost of living also have higher average Airbnb prices
+![image](https://github.com/user-attachments/assets/50e68d25-78b5-428f-b6ee-b4dfbbad99ff)
 
 
-![Data Visualization](EDA/EDA_visualizations/Countplot1.png)
-*Comparison of top 10 neighborhoods of 6 cities on the basis of listings*
 
-![Data Visualization](EDA/EDA_visualizations/Stackedplot1.png)
-*Comparison of top room-types of 6 cities*
+
+### **EDA - 2️⃣ Hypothesis**
+There are more listings in the summer months compared to winter
+![image](https://github.com/user-attachments/assets/c2b2d217-18b9-43c0-9a43-b4c575d56eb8)
+
+
+
+
+### **EDA - 3️⃣ Hypothesis**
+The distribution of listings in city have higher density in touristic locations
+![image](https://github.com/user-attachments/assets/2437c4ac-fda1-4283-8679-98eb0cb73070)
+
+
+
+
+
+
+### **EDA - 4️⃣ Hypothesis**
+Apartment listings are most common irrespective of city and neighbourhood type
+![image](https://github.com/user-attachments/assets/4f6dbf56-d981-4fd4-b3c9-d582476eaa5f)
+
+
 
 
 
